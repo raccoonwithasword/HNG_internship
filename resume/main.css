@@ -63,3 +63,13 @@ h2 {
 .body-links:hover {
     color: rgb(78, 78, 78);
 }
+.the-fun-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button {
+    color: #158ca1;
+    background-color: white;
+    border-radius: 10px;
+}
