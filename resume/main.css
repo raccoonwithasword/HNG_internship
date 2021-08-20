@@ -12,7 +12,7 @@ em {
     margin-right: auto;
     border: 5px solid black;
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 .header {
     background-color:  #158ca1;
@@ -27,6 +27,15 @@ color: rgb(236, 236, 236);
 }
 .header-link:hover {
     color: rgb(87, 87, 87);;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.zuri {
+    font-size: larger;
+    font-weight: bold;
 }
 h1 {
     text-align: center;
