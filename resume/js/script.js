@@ -17,3 +17,7 @@ const facts_animal = [
     "Koalas have fingerprints that are very similar to human fingerprints.",
     "A snail can sleep for three years."
 ]
+
+alert (facts_me [3]);
+
+
