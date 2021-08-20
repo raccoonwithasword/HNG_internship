@@ -1,3 +1,7 @@
+em {
+    font-style: normal;
+    font-weight: bold;
+}
 .resume {
     display: flex;
     background-color:lightslategray;
@@ -8,7 +12,7 @@
     margin-right: auto;
     border: 5px solid black;
     width: 50%;
-    height: 97%;
+    height: 100%;
 }
 .header {
     background-color:  #158ca1;
@@ -33,6 +37,7 @@ h2 {
     margin: 10px;
 
 }
-p {
-
+.body {
+    padding: 10px;
+    text-align: justify;
 }
