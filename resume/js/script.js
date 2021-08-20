@@ -18,6 +18,6 @@ const facts_animal = [
     "A snail can sleep for three years."
 ]
 
-alert (facts_me [3]);
-
-
+function randomInteger(min, max) {
+    return Math.floor (Math.random() * (max-min +1)) + min;
+}
