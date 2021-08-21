@@ -29,8 +29,11 @@ let meNumber = randomInteger (0, (facts_me.length -1));
 function generateFunFact(a,b) {
     return (a [b]);
 }
-let animalFunFact = generateFunFact (facts_animal, animalNumber);
-let meFunFact = generateFunFact (facts_me, meNumber);
+function hide() {
+    document.getElementById("click").style.display="none";
+}
+let animalFunFact = document.getElementById("fact").innerHTML=generateFunFact (facts_animal, animalNumber);
+//let meFunFact = generateFunFact (facts_me, meNumber);
 
-let funFactMe = document.getElementById("fact").innerHTML=meFunFact;
-let funFactAnimal = document.getElementById("fact").innerHTML=animalFunFact;
+//let funFactMe = document.getElementById("fact").innerHTML=meFunFact;
+//let funFactAnimal = document.getElementById("fact").innerHTML=animalFunFact;
