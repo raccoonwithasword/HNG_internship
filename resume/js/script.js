@@ -38,13 +38,11 @@ else {
     click.style.display="block";
 }
 }
-let animalFunFact = generateFunFact (facts_animal, animalNumber);
+ function animalFunFact (){
+     animalFunFact = document.getElementById("fact");
+getElement.innerHTML = generateFunFact (facts_animal, animalNumber);
+}
 
 let meFunFact =  generateFunFact (facts_me, meNumber);
 
 
-
-function funFactMe () {
-    document.getElementById("fact").innerHTML=meFunFact;
-}
-let funFactAnimal = document.getElementById("fact").innerHTML=animalFunFact;
