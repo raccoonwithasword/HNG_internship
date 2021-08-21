@@ -38,8 +38,13 @@ else {
     click.style.display="block";
 }
 }
-//var animalFunFact = document.getElementById("fact").innerHTML=generateFunFact (facts_animal, animalNumber);
-//let meFunFact = generateFunFact (facts_me, meNumber);
+let animalFunFact = generateFunFact (facts_animal, animalNumber);
 
-//let funFactMe = document.getElementById("fact").innerHTML=meFunFact;
-//let funFactAnimal = document.getElementById("fact").innerHTML=animalFunFact;
+let meFunFact =  generateFunFact (facts_me, meNumber);
+
+
+
+function funFactMe () {
+    document.getElementById("fact").innerHTML=meFunFact;
+}
+let funFactAnimal = document.getElementById("fact").innerHTML=animalFunFact;
