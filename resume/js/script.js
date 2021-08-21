@@ -30,9 +30,15 @@ function generateFunFact(a,b) {
     return (a [b]);
 }
 function hide() {
-    document.getElementById("click").style.display="none";
+    document.getElementById("click");
+   if (click.style.display!=="none") {
+       click.style.display = "none";
 }
-let animalFunFact = document.getElementById("fact").innerHTML=generateFunFact (facts_animal, animalNumber);
+else {
+    click.style.display="block";
+}
+}
+//var animalFunFact = document.getElementById("fact").innerHTML=generateFunFact (facts_animal, animalNumber);
 //let meFunFact = generateFunFact (facts_me, meNumber);
 
 //let funFactMe = document.getElementById("fact").innerHTML=meFunFact;
