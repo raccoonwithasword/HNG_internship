@@ -63,7 +63,7 @@ h2 {
 .body-links:hover {
     color: rgb(78, 78, 78);
 }
-.the-fun-part {
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
