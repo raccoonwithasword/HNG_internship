@@ -31,3 +31,6 @@ function generateFunFact(a,b) {
 }
 let animalFunFact = generateFunFact (facts_animal, animalNumber);
 let meFunFact = generateFunFact (facts_me, meNumber);
+
+let funFactMe = document.getElementById("fact").innerHTML=meFunFact;
+let funFactAnimal = document.getElementById("fact").innerHTML=animalFunFact;
