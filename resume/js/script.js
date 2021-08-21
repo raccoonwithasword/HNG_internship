@@ -19,6 +19,10 @@ const facts_animal = [
 ]
 
 
+function hide() {
+    document.getElementById("click");
+       click.style.display = "none";
+}
 
 function randomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -29,20 +33,12 @@ let meNumber = randomInteger (0, (facts_me.length -1));
 function generateFunFact(a,b) {
     return (a [b]);
 }
-function hide() {
-    document.getElementById("click");
-   if (click.style.display!=="none") {
-       click.style.display = "none";
-}
-else {
-    click.style.display="block";
-}
-}
- function animalFunFact (){
-     animalFunFact = document.getElementById("fact");
-getElement.innerHTML = generateFunFact (facts_animal, animalNumber);
-}
 
 let meFunFact =  generateFunFact (facts_me, meNumber);
+let animalFunFact = generateFunFact (facts_animal, animalNumber);
+
+function factAboutMe (meFunFact){
+    document.getElementById("fact_me").fact.innerHTML = meFunFact;
+}
 
 

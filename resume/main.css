@@ -74,3 +74,8 @@ button {
     border-radius: 10px;
     margin: 5px;
 }
+#fact {
+    text-align: center;
+    color: black;
+    background-color: white;
+}
