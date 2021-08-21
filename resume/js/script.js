@@ -20,15 +20,14 @@ const facts_animal = [
 
 
 
-function randomInteger(max) {
+function randomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+let animalNumber = randomInteger (0, (facts_animal.length -1));
+let meNumber = randomInteger (0, (facts_me.length -1));
 
-function funFact() {
-    randomInteger (0,5) { 
-        return (randomInteger);
-    }
-    
+function generateFunFact(a,b) {
+    return (a [b]);
 }
-
-
+let animalFunFact = generateFunFact (facts_animal, animalNumber);
+let meFunFact = generateFunFact (facts_me, meNumber);
