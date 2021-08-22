@@ -40,5 +40,3 @@ let animalFunFact = generateFunFact (facts_animal, animalNumber);
 function factAboutMe (meFunFact){
     document.getElementById("fact_me").fact.innerHTML = meFunFact;
 }
-
-
