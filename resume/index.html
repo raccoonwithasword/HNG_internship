@@ -50,9 +50,12 @@
                 </ul>
             </div>
             <div class="the-fun-part">
-                <p>Click the button below for a surprise.</p>
-                    <button type="button" id="fact_me" onclick="hide()">Hit me!</button>
-                    <p id="click">There's no surprise. I was lying.</p>
+                <p id="click">Click one of the buttons below for a fun fact.</p>
+                <div class = "buttons">
+                    <button type="button" id="fact_me" onclick="hide(), factAboutMe()">Fun fact about me!</button>
+                    <button type="button" class="button" onclick="hide()">Fun animal fact!</button>
+                </div>
+                <p id="fact"></p>
             </div>
         </div>
     </body>
