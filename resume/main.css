@@ -12,7 +12,7 @@ em {
     margin-right: auto; */
     border: 5px solid black;
     width: auto;
-    height: 100vh;
+    height: auto;
 }
 .header {
     background-color:  #158ca1;
