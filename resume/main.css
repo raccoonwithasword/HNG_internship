@@ -7,11 +7,11 @@ em {
     background-color:lightslategray;
     flex-direction: column;
     box-sizing: border-box;
-    margin-top: 25px;
+    /* margin-top: 25px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     border: 5px solid black;
-    width: 50%;
+    width: auto;
     height: auto;
 }
 .header {
@@ -48,6 +48,9 @@ h2 {
     text-align: center;
     margin: 10px;
 }
+h4 {
+    text-align: left;
+}
 #contact-info{
     text-align: center;
     margin: 10px;
@@ -63,19 +66,17 @@ h2 {
 .body-links:hover {
     color: rgb(78, 78, 78);
 }
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 button {
     color: #158ca1;
     background-color: white;
     border-radius: 10px;
     margin: 5px;
 }
-#fact {
-    text-align: center;
-    color: black;
+#click {
     background-color: white;
+    color: #158ca1;
+    font-size: large;
+    font-weight: bold;
+    display: none;
+    text-align: center;
 }
