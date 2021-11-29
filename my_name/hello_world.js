@@ -1,6 +1,6 @@
 let myName = "Percy";
 const randomNumber = Math.random();
-let x
+let x;
 x = randomNumber;
 let age;
 age = Math.round (100 * x);
